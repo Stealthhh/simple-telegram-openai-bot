@@ -13,15 +13,6 @@ openai.api_key = "your_openai_api_token"
 openai.Model.list()
 
 
-# -----------------------------------------------------------
-#                             Bot
-#
-#                          CHATGPT_BOT
-# 
-#                          by stealth
-# -----------------------------------------------------------
-
-
 @dp.message_handler(content_types=['text'])
 async def handle_message(message: Message):
     if message.chat.type in ('supergroup', 'group') and "your_id_bot" not in message.text:
