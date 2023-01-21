@@ -1,3 +1,3 @@
-# simple_telegram_openai_bot
+# Simple telegram openAI bot
 
 A simple openai-based telegram bot that can solve various math examples, answer any questions, and generate texts and essays.
